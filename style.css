@@ -98,3 +98,38 @@
     text-align: left;
     margin-left: 20px;
 }
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 340px;
+    width: 95%;
+    padding: 20px 17px;
+  }
+  .search-box input {
+    width: 220px;
+  }
+  .weather {
+    margin-top: 40px;
+  }
+  .weather img {
+    height: 110px;
+    width: 120px;
+  }
+  .weather h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .weather h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+  .col img {
+    height: 55px;
+    width: 45px;
+    margin-right: 10px;
+  }
+  .humidity,
+  .wind {
+    font-size: 16px;
+  }
+}
