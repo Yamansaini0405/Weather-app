@@ -100,12 +100,12 @@
 }
 @media screen and (max-width: 600px) {
   .card {
-    max-width: 340px;
+    max-width: 380px;
     width: 95%;
     padding: 20px 17px;
   }
   .search-box input {
-    width: 220px;
+    width: 240px;
   }
   .weather {
     margin-top: 40px;
